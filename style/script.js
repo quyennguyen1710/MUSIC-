@@ -28,8 +28,8 @@ loadSong(songs[songIndex]);
 // Cập nhật chi tiết bài hát
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.jpg`;
+  audio.src = `style/music/${song}.mp3`;
+  cover.src = `style/images/${song}.jpg`;
 }
 
 // Play song
